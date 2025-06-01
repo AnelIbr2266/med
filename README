@@ -1,0 +1,25 @@
+# EAS Build
+#######################
+eas build:configure
+npx expo prebuild --clean
+
+npx expo run:android --variant release
+npx expo start --clear
+npm run a --reset-cache
+##############################
+npx -y expo-doctor
+
+
+# Build APK (production)
+eas build -p android --profile production
+eas build -p android --profile preview  @@@@@ Убрать пароли @@@@@@@@@
+
+
+
+
+.then((res) => {
+    console.log('res', res)
+})
+.catch((err) => {
+    console.log('err', err)
+});
