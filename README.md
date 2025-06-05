@@ -20,6 +20,7 @@
  - Синхронизация с ELMA365
  - Сбор и визуализация данных через Apache Superset
 
-![alt text](https://craftology.ru/upload/iblock/8ea/izbcbgj9gxpx2myoo3kdajyb0voew9fk.png)
+![Авторизация](./avtorization.jpg)
+
 
 
